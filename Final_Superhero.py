@@ -273,7 +273,16 @@ def final_fight():
 	if grenade == True:
 		throw = input("")
 		if throw == 'throw':
-			print("You know... They never ")
+			print("You know... They always say never throw stones in a glass house.\nThey never said anything about grenades.")
+			print("You throw the grenade and it blows up.")
+			print("Lord Conglebongle dies.")
+			print("You think...")
+		else:
+			print("Lord Conglebongle shoots you.")
+			print("You die.")
+	else:
+		print("Lord Conglebongle shoots you.")
+		print("You die.")
 
 
 awake()
